@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.cupcake.test.CupcakeOrderScreenTest" tests="11" failures="0" errors="0" skipped="0" time="19.738" timestamp="2024-03-23T16:48:43" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="selectOptionScreen_verifyContent" classname="com.example.cupcake.test.CupcakeOrderScreenTest" time="1.252" />
+  <testcase name="cupcakeNavHost_clickCancelOnFlavorScreen_navigatesToStartOrderScreen" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="1.864" />
+  <testcase name="cupcakeNavHost_verifyBackNavigationNotShownOnStartOrderScreen" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="0.791" />
+  <testcase name="cupcakeNavHost_clickCancelOnSummaryScreen_navigatesToStartOrderScreen" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="2.378" />
+  <testcase name="cupcakeNavHost_clickBackOnFlavorScreen_navigatesToStartOrderScreen" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="1.603" />
+  <testcase name="cupcakeNavHost_clickOneCupcake_navigatesToSelectFlavorScreen" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="1.129" />
+  <testcase name="cupcakeNavHost_clickBackOnPickupScreen_navigatesToFlavorScreen" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="1.832" />
+  <testcase name="cupcakeNavHost_verifyStartDestination" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="1.273" />
+  <testcase name="cupcakeNavHost_clickNextOnPickupScreen_navigatesToSummaryScreen" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="1.631" />
+  <testcase name="cupcakeNavHost_clickCancelOnPickupScreen_navigatesToStartOrderScreen" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="1.986" />
+  <testcase name="cupcakeNavHost_clickNextOnFlavorScreen_navigatesToPickupScreen" classname="com.example.cupcake.test.CupcakeScreenNavigationTest" time="2.468" />
+</testsuite>

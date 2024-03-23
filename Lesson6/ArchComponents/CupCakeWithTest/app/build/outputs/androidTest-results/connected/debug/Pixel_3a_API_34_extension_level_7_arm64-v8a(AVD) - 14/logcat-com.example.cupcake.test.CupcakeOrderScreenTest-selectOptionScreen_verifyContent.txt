@@ -1,0 +1,174 @@
+03-23 12:48:23.991 28493 28511 I TestRunner: started: selectOptionScreen_verifyContent(com.example.cupcake.test.CupcakeOrderScreenTest)
+03-23 12:48:24.006 28493 28511 W FileTestStorage: Output properties is not supported.
+03-23 12:48:24.006 28493 28511 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+03-23 12:48:24.010 28493 28493 D EventInjectionStrategy: Creating injection strategy with input manager.
+03-23 12:48:24.011 28493 28493 W example.cupcake: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+03-23 12:48:24.011 28493 28493 W example.cupcake: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+03-23 12:48:24.011 28493 28493 W example.cupcake: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+03-23 12:48:24.015 28493 28493 W example.cupcake: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+03-23 12:48:24.019 28493 28493 W example.cupcake: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+03-23 12:48:24.019 28493 28493 W example.cupcake: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+03-23 12:48:24.020 28493 28511 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@3332b88]
+03-23 12:48:24.028 28493 28511 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-23 12:48:24.041   716   858 D SplashScreenView: Build android.window.SplashScreenView{e9e3bd0 V.E...... ......ID 0,0-0,0}
+03-23 12:48:24.041   716   858 D SplashScreenView: Icon: view: null drawable: null size: 0
+03-23 12:48:24.041   716   858 D SplashScreenView: Branding: view: android.view.View{27907c9 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+03-23 12:48:24.071   716   884 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:24.077   361   361 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+03-23 12:48:24.105  1008  1449 D EGL_emulation: app_time_stats: avg=39.95ms min=1.06ms max=674.96ms count=20
+03-23 12:48:24.120 28493 28515 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+03-23 12:48:24.124 28493 28515 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+03-23 12:48:24.131 28493 28515 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+03-23 12:48:24.156  1379  1379 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+03-23 12:48:24.161  1379  1901 I HwDetectorWithState: (REDACTED) a: %d
+03-23 12:48:24.165 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@33a07f6 in: PRE_ON_CREATE
+03-23 12:48:24.167 28493 28493 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+03-23 12:48:24.185 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@33a07f6 in: CREATED
+03-23 12:48:24.192 28493 28493 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@33a07f6
+03-23 12:48:24.198 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@33a07f6 in: STARTED
+03-23 12:48:24.198 28493 28493 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@33a07f6
+03-23 12:48:24.200 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@33a07f6 in: RESUMED
+03-23 12:48:24.200 28493 28493 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@33a07f6
+03-23 12:48:24.203 28493 28493 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10198; state: DISABLED
+03-23 12:48:24.206 28493 28493 W OpenGLRenderer: Unknown dataspace 0
+03-23 12:48:24.217   361   440 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10198 pid=0
+03-23 12:48:24.217   361   440 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10198 => denied (195 us)
+03-23 12:48:24.217   361   876 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10198 pid=28493
+03-23 12:48:24.217   361   876 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10198 => denied (333 us)
+03-23 12:48:24.217   361   876 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10198 pid=28493
+03-23 12:48:24.217   361   876 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10198 => denied (363 us)
+03-23 12:48:24.218   361   876 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10198 pid=28493
+03-23 12:48:24.218   361   876 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10198 => denied (483 us)
+03-23 12:48:24.221   361   440 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10198 pid=0
+03-23 12:48:24.221   361   440 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10198 => denied (4105 us)
+03-23 12:48:24.259   716   884 D EGL_emulation: app_time_stats: avg=24211.65ms min=24211.65ms max=24211.65ms count=1
+03-23 12:48:24.265 28493 28514 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-23 12:48:24.272 28493 28514 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+03-23 12:48:24.286   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+03-23 12:48:24.287 28493 28514 I Gralloc4: mapper 4.x is not supported
+03-23 12:48:24.293 28493 28514 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:24.324   515   834 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10198 pid=0
+03-23 12:48:24.324   515   834 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10198 => denied (431 us)
+03-23 12:48:24.324   515   834 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10198 pid=0
+03-23 12:48:24.324   515   834 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10198 => denied (334 us)
+03-23 12:48:24.325   515   834 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10198 pid=0
+03-23 12:48:24.325   515   834 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10198 => denied (203 us)
+03-23 12:48:24.332   515   532 W ziparchive: Unable to open '/data/app/~~ttV35Wmdmrq27oZxaNsl5w==/com.example.cupcake-oLjUwNUtoYz162yaYWvL9g==/base.dm': No such file or directory
+03-23 12:48:24.333   515   532 I ActivityTaskManager: Displayed com.example.cupcake/androidx.activity.ComponentActivity for user 0: +300ms
+03-23 12:48:24.354   515   834 I ImeTracker: com.example.cupcake:fe2b7dab: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+03-23 12:48:24.354   515   834 I ImeTracker: com.example.cupcake:fe2b7dab: onCancelled at PHASE_SERVER_SHOULD_HIDE
+03-23 12:48:24.357  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+03-23 12:48:24.359  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+03-23 12:48:24.360  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.cupcake fieldId=0 fieldName=null extras=null}, false)
+03-23 12:48:24.360  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+03-23 12:48:24.360  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+03-23 12:48:24.420   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:24.421   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:24.442  1008  1078 I ImeTracker: com.google.android.apps.nexuslauncher:755e1f2d: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+03-23 12:48:24.442  1008  1078 I ImeTracker: com.google.android.apps.nexuslauncher:755e1f2d: onFailed at PHASE_CLIENT_VIEW_SERVED
+03-23 12:48:24.449  1008  1548 D OneSearchSuggestProvider: Shut down the binder channel
+03-23 12:48:24.450  1008 16291 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007301089870 will be dropped but finished with status UNKNOWN_TRANSACTION
+03-23 12:48:24.470   716   884 D EGL_emulation: app_time_stats: avg=29764.26ms min=44.00ms max=178192.30ms count=6
+03-23 12:48:24.504 28493 28493 W example.cupcake: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateMap.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+03-23 12:48:24.504 28493 28493 W example.cupcake: Common causes for lock verification issues are non-optimized dex code
+03-23 12:48:24.504 28493 28493 W example.cupcake: and incorrect proguard optimizations.
+03-23 12:48:24.504 28493 28493 W example.cupcake: Method void androidx.compose.runtime.snapshots.SnapshotStateMap.update(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+03-23 12:48:24.505 28493 28493 W example.cupcake: Method boolean androidx.compose.runtime.snapshots.SnapshotStateMap.removeIf$runtime_release(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+03-23 12:48:24.572 28493 28493 W example.cupcake: Method boolean androidx.compose.runtime.snapshots.SnapshotStateList.conditionalUpdate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+03-23 12:48:24.572 28493 28493 W example.cupcake: Method java.lang.Object androidx.compose.runtime.snapshots.SnapshotStateList.mutate(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+03-23 12:48:24.572 28493 28493 W example.cupcake: Method void androidx.compose.runtime.snapshots.SnapshotStateList.update(kotlin.jvm.functions.Function1) failed lock verification and will run slower.
+03-23 12:48:24.599   716   716 D StatusBarIconController: ignoring old pipeline callbacks, because the new mobile icons are enabled
+03-23 12:48:24.666   716   857 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@738fe0b
+03-23 12:48:24.666   515  2439 W InputManager-JNI: Input channel object 'eff670e Splash Screen com.example.cupcake (client)' was disposed without first being removed with the input manager!
+03-23 12:48:24.688   716   858 D SplashScreenView: Build android.window.SplashScreenView{7746d3a V.E...... ......ID 0,0-0,0}
+03-23 12:48:24.688   716   858 D SplashScreenView: Icon: view: null drawable: null size: 0
+03-23 12:48:24.688   716   858 D SplashScreenView: Branding: view: android.view.View{ab65deb G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+03-23 12:48:24.700 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@33a07f6 in: PAUSED
+03-23 12:48:24.701 28493 28493 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@33a07f6
+03-23 12:48:24.710   361   361 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+03-23 12:48:24.717   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:24.717   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:24.721   318   318 D Zygote  : Forked child process 28524
+03-23 12:48:24.726 12266 16105 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+03-23 12:48:24.726 12266 16105 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+03-23 12:48:24.732 12266 16105 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+03-23 12:48:24.739 12266 16105 I FontLog : Pulling font file for id = 108, cache size = 4 [CONTEXT service_id=132 ]
+03-23 12:48:24.740 12266 16105 I FontLog : Pulling font file for id = 108, cache size = 4 [CONTEXT service_id=132 ]
+03-23 12:48:24.748   716   884 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:24.772 28524 28524 I le.cupcake.test: Late-enabling -Xcheck:jni
+03-23 12:48:24.820 28524 28524 I le.cupcake.test: Using CollectorTypeCC GC.
+03-23 12:48:24.847   391   407 I adbd    : jdwp connection from 28524
+03-23 12:48:24.884 28524 28524 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10199; state: ENABLED
+03-23 12:48:24.884 28524 28524 D CompatibilityChangeReporter: Compat change id reported: 242716250; UID 10199; state: ENABLED
+03-23 12:48:24.890 28524 28524 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+03-23 12:48:24.891 28524 28524 D nativeloader: Configuring clns-6 for other apk /system/framework/android.test.mock.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~cn0u1ZsSMsVKIte6HU5ObA==/com.example.cupcake.test-BOhqSlG4KN8ymugUJGD-2Q==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.cupcake.test
+03-23 12:48:24.909 28524 28524 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+03-23 12:48:24.910 28524 28524 D nativeloader: Configuring clns-7 for other apk /system/framework/android.test.runner.jar. target_sdk_version=34, uses_libraries=ALL, library_path=/data/app/~~cn0u1ZsSMsVKIte6HU5ObA==/com.example.cupcake.test-BOhqSlG4KN8ymugUJGD-2Q==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.cupcake.test
+03-23 12:48:24.910 28524 28524 W ziparchive: Unable to open '/data/app/~~cn0u1ZsSMsVKIte6HU5ObA==/com.example.cupcake.test-BOhqSlG4KN8ymugUJGD-2Q==/base.dm': No such file or directory
+03-23 12:48:24.910 28524 28524 W ziparchive: Unable to open '/data/app/~~cn0u1ZsSMsVKIte6HU5ObA==/com.example.cupcake.test-BOhqSlG4KN8ymugUJGD-2Q==/base.dm': No such file or directory
+03-23 12:48:24.947   361   442 W TransactionTracing: Could not find layer id 1586
+03-23 12:48:24.950   361   442 W TransactionTracing: Could not find layer id 1575
+03-23 12:48:24.950   361   442 W TransactionTracing: Could not find layer id 1575
+03-23 12:48:24.950   361   442 W TransactionTracing: Could not find layer id 1574
+03-23 12:48:24.970 28524 28524 D nativeloader: Configuring clns-8 for other apk /data/app/~~cn0u1ZsSMsVKIte6HU5ObA==/com.example.cupcake.test-BOhqSlG4KN8ymugUJGD-2Q==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~cn0u1ZsSMsVKIte6HU5ObA==/com.example.cupcake.test-BOhqSlG4KN8ymugUJGD-2Q==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.cupcake.test
+03-23 12:48:24.989 28524 28524 V GraphicsEnvironment: Currently set values for:
+03-23 12:48:24.989 28524 28524 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+03-23 12:48:24.989 28524 28524 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+03-23 12:48:24.990 28524 28524 V GraphicsEnvironment: ANGLE GameManagerService for com.example.cupcake.test: false
+03-23 12:48:24.990 28524 28524 V GraphicsEnvironment: com.example.cupcake.test is not listed in per-application setting
+03-23 12:48:24.990 28524 28524 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+03-23 12:48:24.999 28524 28541 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+03-23 12:48:25.005 28524 28541 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+03-23 12:48:25.006 28524 28541 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+03-23 12:48:25.050   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:25.051   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:25.053 28524 28524 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10199; state: DISABLED
+03-23 12:48:25.054 28524 28524 W OpenGLRenderer: Unknown dataspace 0
+03-23 12:48:25.068   361   441 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10199 pid=0
+03-23 12:48:25.068   361   441 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10199 => denied (54 us)
+03-23 12:48:25.068   361   441 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10199 pid=0
+03-23 12:48:25.068   361   441 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10199 => denied (347 us)
+03-23 12:48:25.068   361   441 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10199 pid=0
+03-23 12:48:25.068   361   441 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10199 => denied (304 us)
+03-23 12:48:25.075 28524 28539 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-23 12:48:25.076 28524 28539 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+03-23 12:48:25.082   133   133 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+03-23 12:48:25.082 28524 28539 I Gralloc4: mapper 4.x is not supported
+03-23 12:48:25.088 28524 28539 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:25.102   515  1052 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10199 pid=0
+03-23 12:48:25.102   515  1052 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10199 => denied (73 us)
+03-23 12:48:25.102   515  1052 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10199 pid=0
+03-23 12:48:25.102   515  1052 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10199 => denied (6 us)
+03-23 12:48:25.102   515  1052 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10199 pid=0
+03-23 12:48:25.102   515  1052 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10199 => denied (4 us)
+03-23 12:48:25.108   515  1398 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+03-23 12:48:25.117  1008  1548 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=z1{delegate=s1{logId=109, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=X1.T@6662c6c
+03-23 12:48:25.118   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:25.118   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:25.120  1340  1752 I AiAiEcho: Predicting[0]:
+03-23 12:48:25.121  1340  1752 I AiAiEcho: EchoTargets:
+03-23 12:48:25.121  1340  1752 I AiAiEcho: Filtered by AiAi flag check:
+03-23 12:48:25.121  1340  1752 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+03-23 12:48:25.125  1008  1449 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:25.141 16311 16349 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:25.145  1340  1752 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+03-23 12:48:25.159 16311 16311 E A       : Received UNKNOWN mutation type. [CONTEXT cel_metadata="# k.a.j.b.a.aq@2261e8f0\n[486185550] {\n}" ]
+03-23 12:48:25.165  1379  1379 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+03-23 12:48:25.165  1379  1956 I GsaVoiceInteractionSrv: (REDACTED) disregardVoiceMatch: %b
+03-23 12:48:25.165  1379  1956 I GsaVoiceInteractionSrv: Cannot start hotword, hotword has been explicitly disabled.
+03-23 12:48:25.169 16311 16311 I A       : (REDACTED) Created gRPC endpoint for service %s
+03-23 12:48:25.201 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@33a07f6 in: STOPPED
+03-23 12:48:25.202 28493 28493 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@33a07f6
+03-23 12:48:25.209   515  2220 I ImeTracker: com.google.android.apps.nexuslauncher:bc470b9e: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+03-23 12:48:25.209   515  2220 I ImeTracker: com.google.android.apps.nexuslauncher:bc470b9e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+03-23 12:48:25.218  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+03-23 12:48:25.224  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+03-23 12:48:25.224  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.apps.nexuslauncher fieldId=0 fieldName=null extras=null}, false)
+03-23 12:48:25.224  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+03-23 12:48:25.232 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@33a07f6 in: DESTROYED
+03-23 12:48:25.233 28493 28493 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+03-23 12:48:25.233  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+03-23 12:48:25.241 28493 28493 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@12e5e3a
+03-23 12:48:25.242   515   834 W InputManager-JNI: Input channel object 'b3d09ca com.example.cupcake/androidx.activity.ComponentActivity (client)' was disposed without first being removed with the input manager!
+03-23 12:48:25.251 28493 28511 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@3332b88]
+03-23 12:48:25.256 28493 28511 I TestRunner: finished: selectOptionScreen_verifyContent(com.example.cupcake.test.CupcakeOrderScreenTest)

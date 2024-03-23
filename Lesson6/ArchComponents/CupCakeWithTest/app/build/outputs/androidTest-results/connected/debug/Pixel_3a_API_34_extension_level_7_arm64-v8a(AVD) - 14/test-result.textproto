@@ -1,0 +1,588 @@
+# 2024-03-23T16:48:43.840Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 11
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "CupcakeOrderScreenTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "selectOptionScreen_verifyContent"
+    start_time {
+      seconds: 1711212504
+      nanos: 63000000
+    }
+    end_time {
+      seconds: 1711212505
+      nanos: 319000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeOrderScreenTest-selectOptionScreen_verifyContent.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_clickCancelOnFlavorScreen_navigatesToStartOrderScreen"
+    start_time {
+      seconds: 1711212505
+      nanos: 326000000
+    }
+    end_time {
+      seconds: 1711212507
+      nanos: 189000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_clickCancelOnFlavorScreen_navigatesToStartOrderScreen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_verifyBackNavigationNotShownOnStartOrderScreen"
+    start_time {
+      seconds: 1711212507
+      nanos: 191000000
+    }
+    end_time {
+      seconds: 1711212507
+      nanos: 982000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_verifyBackNavigationNotShownOnStartOrderScreen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_clickCancelOnSummaryScreen_navigatesToStartOrderScreen"
+    start_time {
+      seconds: 1711212507
+      nanos: 983000000
+    }
+    end_time {
+      seconds: 1711212510
+      nanos: 359000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_clickCancelOnSummaryScreen_navigatesToStartOrderScreen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_clickBackOnFlavorScreen_navigatesToStartOrderScreen"
+    start_time {
+      seconds: 1711212510
+      nanos: 360000000
+    }
+    end_time {
+      seconds: 1711212511
+      nanos: 963000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_clickBackOnFlavorScreen_navigatesToStartOrderScreen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_clickOneCupcake_navigatesToSelectFlavorScreen"
+    start_time {
+      seconds: 1711212511
+      nanos: 964000000
+    }
+    end_time {
+      seconds: 1711212513
+      nanos: 91000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_clickOneCupcake_navigatesToSelectFlavorScreen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_clickBackOnPickupScreen_navigatesToFlavorScreen"
+    start_time {
+      seconds: 1711212513
+      nanos: 118000000
+    }
+    end_time {
+      seconds: 1711212514
+      nanos: 949000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_clickBackOnPickupScreen_navigatesToFlavorScreen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_verifyStartDestination"
+    start_time {
+      seconds: 1711212514
+      nanos: 950000000
+    }
+    end_time {
+      seconds: 1711212516
+      nanos: 222000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_verifyStartDestination.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_clickNextOnPickupScreen_navigatesToSummaryScreen"
+    start_time {
+      seconds: 1711212516
+      nanos: 222000000
+    }
+    end_time {
+      seconds: 1711212517
+      nanos: 854000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_clickNextOnPickupScreen_navigatesToSummaryScreen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_clickCancelOnPickupScreen_navigatesToStartOrderScreen"
+    start_time {
+      seconds: 1711212517
+      nanos: 854000000
+    }
+    end_time {
+      seconds: 1711212519
+      nanos: 838000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_clickCancelOnPickupScreen_navigatesToStartOrderScreen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "CupcakeScreenNavigationTest"
+    test_package: "com.example.cupcake.test"
+    test_method: "cupcakeNavHost_clickNextOnFlavorScreen_navigatesToPickupScreen"
+    start_time {
+      seconds: 1711212519
+      nanos: 840000000
+    }
+    end_time {
+      seconds: 1711212522
+      nanos: 240000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/logcat-com.example.cupcake.test.CupcakeScreenNavigationTest-cupcakeNavHost_clickNextOnFlavorScreen_navigatesToPickupScreen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/Users/roniel/Desktop/basic-android-kotlin-compose-training-cupcake/app/build/outputs/androidTest-results/connected/debug/Pixel_3a_API_34_extension_level_7_arm64-v8a(AVD) - 14/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

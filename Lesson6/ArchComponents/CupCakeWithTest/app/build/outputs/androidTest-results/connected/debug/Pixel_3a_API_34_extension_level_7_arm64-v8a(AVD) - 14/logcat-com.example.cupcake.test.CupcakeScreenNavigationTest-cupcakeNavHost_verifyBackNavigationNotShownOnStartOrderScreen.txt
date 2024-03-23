@@ -1,0 +1,81 @@
+03-23 12:48:27.134 28493 28511 I TestRunner: started: cupcakeNavHost_verifyBackNavigationNotShownOnStartOrderScreen(com.example.cupcake.test.CupcakeScreenNavigationTest)
+03-23 12:48:27.135 28493 28511 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@6ea2449]
+03-23 12:48:27.138 28493 28511 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-23 12:48:27.151 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@5d666bd in: PRE_ON_CREATE
+03-23 12:48:27.152 28493 28493 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+03-23 12:48:27.154 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@5d666bd in: CREATED
+03-23 12:48:27.155 28493 28493 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.activity.ComponentActivity@5d666bd
+03-23 12:48:27.155 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@5d666bd in: STARTED
+03-23 12:48:27.155 28493 28493 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.activity.ComponentActivity@5d666bd
+03-23 12:48:27.156 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@5d666bd in: RESUMED
+03-23 12:48:27.156 28493 28493 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.activity.ComponentActivity@5d666bd
+03-23 12:48:27.167   716   858 D SplashScreenView: Build android.window.SplashScreenView{6c0369d V.E...... ......ID 0,0-0,0}
+03-23 12:48:27.167   716   858 D SplashScreenView: Icon: view: null drawable: null size: 0
+03-23 12:48:27.167   716   858 D SplashScreenView: Branding: view: android.view.View{ae94712 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+03-23 12:48:27.175 28493 28514 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:27.183   515   532 W ziparchive: Unable to open '/data/app/~~ttV35Wmdmrq27oZxaNsl5w==/com.example.cupcake-oLjUwNUtoYz162yaYWvL9g==/base.dm': No such file or directory
+03-23 12:48:27.184   515   532 I ActivityTaskManager: Displayed com.example.cupcake/androidx.activity.ComponentActivity for user 0: +41ms
+03-23 12:48:27.213 28524 28524 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@44b97ff
+03-23 12:48:27.215   515   834 W InputManager-JNI: Input channel object '913f72d com.example.cupcake.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity (client)' was disposed without first being removed with the input manager!
+03-23 12:48:27.221   515   536 W InputManager-JNI: Input channel object '177de0a Splash Screen com.example.cupcake.test (client)' was disposed without first being removed with the input manager!
+03-23 12:48:27.234   515   834 I ImeTracker: com.example.cupcake:d8b55e15: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+03-23 12:48:27.234   515   834 I ImeTracker: com.example.cupcake:d8b55e15: onCancelled at PHASE_SERVER_SHOULD_HIDE
+03-23 12:48:27.236  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+03-23 12:48:27.236  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+03-23 12:48:27.237  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.cupcake fieldId=0 fieldName=null extras=null}, false)
+03-23 12:48:27.237  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+03-23 12:48:27.237  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+03-23 12:48:27.242   716   884 D EGL_emulation: app_time_stats: avg=438.95ms min=0.82ms max=1708.91ms count=4
+03-23 12:48:27.243   716   857 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@ac4f550
+03-23 12:48:27.250  1379  1379 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+03-23 12:48:27.250  1379  1901 I HwDetectorWithState: (REDACTED) a: %d
+03-23 12:48:27.501 28493 28493 D AutofillManager: Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+03-23 12:48:27.524  1008  1078 I ImeTracker: com.google.android.apps.nexuslauncher:c2f28930: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+03-23 12:48:27.525  1008  1078 I ImeTracker: com.google.android.apps.nexuslauncher:c2f28930: onFailed at PHASE_CLIENT_VIEW_SERVED
+03-23 12:48:27.525  1008  1548 D OneSearchSuggestProvider: Shut down the binder channel
+03-23 12:48:27.526  1008 16291 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007301053c90 will be dropped but finished with status UNKNOWN_TRANSACTION
+03-23 12:48:27.651   716   858 D SplashScreenView: Build android.window.SplashScreenView{7f2cd4b V.E...... ......ID 0,0-0,0}
+03-23 12:48:27.651   716   858 D SplashScreenView: Icon: view: null drawable: null size: 0
+03-23 12:48:27.651   716   858 D SplashScreenView: Branding: view: android.view.View{ff07328 G.ED..... ......I. 0,0-0,0 #10204ef android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+03-23 12:48:27.655 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@5d666bd in: PAUSED
+03-23 12:48:27.656 28493 28493 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=androidx.activity.ComponentActivity@5d666bd
+03-23 12:48:27.674   716   884 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:27.677   361   361 I BpBinder: onLastStrongRef automatically unlinking death recipients:
+03-23 12:48:27.690 28524 28539 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-23 12:48:27.691 28524 28539 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+03-23 12:48:27.694 28524 28539 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:27.702   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:27.703   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:27.718   515   532 W ziparchive: Unable to open '/data/app/~~cn0u1ZsSMsVKIte6HU5ObA==/com.example.cupcake.test-BOhqSlG4KN8ymugUJGD-2Q==/base.dm': No such file or directory
+03-23 12:48:27.718   515   532 I ActivityTaskManager: Displayed com.example.cupcake.test/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity for user 0: +74ms
+03-23 12:48:27.725   515  1398 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Document (com.google.android.googlequicksearchbox$OneSearchZeroStateGoogleSuggestions/default, zp) not found.
+03-23 12:48:27.734  1008  1548 D OneSearchSuggestProvider: Created the binder channel successfully for end point service =com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService , mChannel=z1{delegate=s1{logId=117, target=directaddress:///AndroidComponentAddress%5BIntent%20%7B%20act=grpc.io.action.BIND%20cmp=com.google.android.googlequicksearchbox/com.google.android.apps.search.googleapp.search.suggest.plugins.onesearch.server.OneSearchSuggestService%20%7D%5D}} , mOneSearchConnection=X1.T@bc5d278
+03-23 12:48:27.735   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:27.736   781  1070 D BtGatt.ScanManager: uid 10130 isForeground true scanMode -1
+03-23 12:48:27.741 16311 16349 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:27.752  1340  1752 I AiAiEcho: Predicting[0]:
+03-23 12:48:27.752  1340  1752 I AiAiEcho: EchoTargets:
+03-23 12:48:27.752  1340  1752 I AiAiEcho: Filtered by AiAi flag check:
+03-23 12:48:27.752  1340  1752 I AiAiEcho: Ranked targets strategy: SORT, count: 0, ranking metadata:
+03-23 12:48:27.769 16311 16311 E A       : Received UNKNOWN mutation type. [CONTEXT cel_metadata="# k.a.j.b.a.aq@2261e8f0\n[486185550] {\n}" ]
+03-23 12:48:27.770  1340  1752 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+03-23 12:48:27.776  1379  1379 I GsaVoiceInteractionSrv: Handling ACTION_START_HOTWORD
+03-23 12:48:27.777  1379  1956 I GsaVoiceInteractionSrv: (REDACTED) disregardVoiceMatch: %b
+03-23 12:48:27.777  1379  1956 I GsaVoiceInteractionSrv: Cannot start hotword, hotword has been explicitly disabled.
+03-23 12:48:27.780  1008  1449 E OpenGLRenderer: Unable to match the desired swap behavior.
+03-23 12:48:27.786 16311 16311 I A       : (REDACTED) Created gRPC endpoint for service %s
+03-23 12:48:27.860 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@5d666bd in: STOPPED
+03-23 12:48:27.864 28493 28493 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=androidx.activity.ComponentActivity@5d666bd
+03-23 12:48:27.886   515  2440 I ImeTracker: com.google.android.apps.nexuslauncher:1082aab3: onRequestHide at ORIGIN_SERVER_HIDE_INPUT reason HIDE_UNSPECIFIED_WINDOW
+03-23 12:48:27.886   515  2440 I ImeTracker: com.google.android.apps.nexuslauncher:1082aab3: onCancelled at PHASE_SERVER_SHOULD_HIDE
+03-23 12:48:27.890 28493 28493 D LifecycleMonitor: Lifecycle status change: androidx.activity.ComponentActivity@5d666bd in: DESTROYED
+03-23 12:48:27.891  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+03-23 12:48:27.893 28493 28493 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+03-23 12:48:27.893 28493 28493 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=falsecallback=android.view.ViewRootImpl$$ExternalSyntheticLambda17@aa0def1
+03-23 12:48:27.894  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+03-23 12:48:27.894  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.google.android.apps.nexuslauncher fieldId=0 fieldName=null extras=null}, false)
+03-23 12:48:27.894  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+03-23 12:48:27.896   515  2440 W InputManager-JNI: Input channel object '2025972 com.example.cupcake/androidx.activity.ComponentActivity (client)' was disposed without first being removed with the input manager!
+03-23 12:48:27.897  1366  1366 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+03-23 12:48:27.902 28493 28511 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.junit4.EspressoLink@6ea2449]
+03-23 12:48:27.917 28493 28511 I TestRunner: finished: cupcakeNavHost_verifyBackNavigationNotShownOnStartOrderScreen(com.example.cupcake.test.CupcakeScreenNavigationTest)
